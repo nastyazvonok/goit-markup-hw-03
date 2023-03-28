@@ -40,16 +40,14 @@ h6 {
   text-decoration: none;
 }
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  max-width: 1440px;
+  padding: 0 156px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /************************* Header *************************/
-.container {
-  width: 1200px;
-}
+
 .header {
   padding-top: 24px;
 }
@@ -76,7 +74,6 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex: none;
-  margin-right: 76px;
 }
 .logo .link:focus {
   color: var(--button-hover-focus);
@@ -118,20 +115,28 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  margin-left: 40px;
+  margin-right: 40px;
 }
+
+.telephone {
+  margin: 0;
+}
+
 .address-container {
   font-style: normal;
 }
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   padding: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .header-nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-right: auto;
 }
 .site-nav {
   display: flex;
@@ -217,7 +222,6 @@ h6 {
 }
 .advantage-item {
   flex-basis: calc((100%-72px) / 4);
-  width: 264px;
 }
 .advantage-container {
   padding-top: 102px;
@@ -238,6 +242,7 @@ h6 {
 }
 .work-list {
   display: flex;
+  justify-content: space-between;
 }
 .work .item {
   width: calc((100 - 72px) / 3);
@@ -268,6 +273,7 @@ h6 {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding-bottom: 8px;
 }
 .team-item-text {
   font-size: 16px;
@@ -276,9 +282,13 @@ h6 {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.team .item {
+.team-item {
   background-color: var(--hero-text);
   width: calc((100 - 96px) / 4);
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-container {
   width: 1440px;
@@ -376,13 +386,16 @@ h6 {
 }
 .works-item {
   flex-basis: calc((100 - 72px) / 3);
+  border: 1px solid #e7e9fc;
 }
 .works-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px;
+  padding-bottom: 120px;
 }
+
 .navigation-list {
   display: flex;
   justify-content: center;
@@ -390,13 +403,12 @@ h6 {
   padding-top: 96px;
   gap: 24px;
 }
+
 .container-main {
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0;
-  width: 1158px;
 }
 .works-description {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
 }
