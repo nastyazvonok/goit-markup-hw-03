@@ -47,10 +47,6 @@ h6 {
 }
 
 /************************* Header *************************/
-
-.header {
-  padding-top: 24px;
-}
 .logo .link {
   margin-left: 156px;
 }
@@ -224,12 +220,18 @@ h6 {
   flex-basis: calc((100%-72px) / 4);
 }
 .advantage-container {
-  padding-top: 102px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
+}
+.section-advantage {
+  padding-top: 120px;
 }
 
 /************************* Section 3 *************************/
+.section-work {
+  padding-top: 120px;
+}
 .work-title {
   font-size: 36px;
   line-height: 1.11;
@@ -237,12 +239,12 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-  padding-top: 120px;
   margin: auto;
 }
 .work-list {
   display: flex;
   justify-content: space-between;
+  padding-top: 72px;
 }
 .work .item {
   width: calc((100 - 72px) / 3);
@@ -250,6 +252,7 @@ h6 {
 /************************* Section 4 *************************/
 .section-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
 }
 .team-title {
   font-size: 36px;
@@ -258,8 +261,6 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
   margin: auto;
 }
 .team-photo {
@@ -297,6 +298,8 @@ h6 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .expert {
   margin: 32px 16px;
@@ -369,6 +372,9 @@ h6 {
 }
 
 /* Portfolio */
+/* .section-portfolio {
+  padding-bottom: 96px;
+} */
 
 .works-item-title {
   font-weight: 500;
@@ -400,7 +406,6 @@ h6 {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  padding-top: 96px;
   gap: 24px;
 }
 
@@ -411,4 +416,7 @@ h6 {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+}
+.main-section {
+  padding-top: 96px;
 }
