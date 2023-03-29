@@ -39,6 +39,7 @@ h6 {
 .link {
   text-decoration: none;
 }
+
 .container {
   max-width: 1440px;
   padding: 0 156px;
@@ -197,18 +198,18 @@ h6 {
 }
 
 /************************* Section 2 *************************/
-.advantage .title {
+.advantage-title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
-.advantage .text {
+.advantage-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-top: 8px;
 }
 
 .advantage-list {
@@ -225,12 +226,12 @@ h6 {
   width: 1158px;
 }
 .section-advantage {
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 /************************* Section 3 *************************/
 .section-work {
-  padding-top: 120px;
+  margin-top: 120px;
 }
 .work-title {
   font-size: 36px;
@@ -244,15 +245,16 @@ h6 {
 .work-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 72px;
+  margin-top: 72px;
 }
-.work .item {
+.work-item {
   width: calc((100 - 72px) / 3);
+  display: block;
 }
 /************************* Section 4 *************************/
 .section-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  margin-top: 120px;
 }
 .team-title {
   font-size: 36px;
@@ -262,9 +264,11 @@ h6 {
   text-transform: capitalize;
   color: var(--primary-text-color);
   margin: auto;
+  padding-top: 120px;
 }
 .team-photo {
   background-color: var(--hero-text);
+  display: block;
 }
 
 .team-item-title {
@@ -286,6 +290,7 @@ h6 {
 .team-item {
   background-color: var(--hero-text);
   width: calc((100 - 96px) / 4);
+  display: block;
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -298,7 +303,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-top: 72px;
+  margin-top: 72px;
   padding-bottom: 120px;
 }
 .expert {
@@ -337,6 +342,7 @@ h6 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+  padding-top: 16px;
 }
 .footer-container {
 }
@@ -372,9 +378,6 @@ h6 {
 }
 
 /* Portfolio */
-/* .section-portfolio {
-  padding-bottom: 96px;
-} */
 
 .works-item-title {
   font-weight: 500;
@@ -418,5 +421,8 @@ h6 {
   padding-left: 16px;
 }
 .main-section {
-  padding-top: 96px;
+  margin-top: 96px;
+}
+.works-photo {
+  display: block;
 }
