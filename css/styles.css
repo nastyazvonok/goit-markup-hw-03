@@ -42,9 +42,10 @@ h6 {
 
 .container {
   max-width: 1440px;
+
   padding: 0 156px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 /************************* Header *************************/
@@ -127,8 +128,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  justify-content: center;
 }
 .header-nav {
   display: flex;
@@ -139,6 +139,7 @@ h6 {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  margin-right: 332px;
 }
 .cont-nav {
   display: flex;
@@ -253,6 +254,11 @@ h6 {
   width: calc((100 - 72px) / 3);
   display: block;
 }
+.container-work {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
+}
 /************************* Section 4 *************************/
 .section-team {
   background-color: #f4f4fd;
@@ -320,6 +326,11 @@ h6 {
 .footer-section {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
 }
 .footer {
   background-color: var(--primary-text-color);
@@ -418,6 +429,12 @@ h6 {
 
 .container-main {
   margin: 0;
+  max-width: 1440px;
+  padding: 0 156px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
 }
 .works-description {
   padding-top: 32px;
